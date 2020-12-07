@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: url(fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: url(fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  src: url(fonts/Roboto-Thin.ttf);
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url(fonts/Roboto-Bold.ttf);
+}
+
+:root {
+  /*Fondo negro, letras naranjas y decoraciones grises*/
+  --negro: #000;
+  --naranja: #f07439;
+  --gris-medio: #8f9091;
+  /*Fondo naranja, letras negras y decoraciones naranja muy claro*/
+  --naranja-medio: #f1823b;
+  --naranja-muy-claro: #f2c499;
+  /*Fondo gris claro, letras naranjas y negras y decoraciones grises y naranjas*/
+  --naranja-claro: #f4ad6c;
+  --gris: #5f5f60;
+  --gris-claro: #eff0f2;
+}
+
+* {
+  font-family: 'Roboto', Helvetica, Arial, sans-serif;
+}
+
+.btn {
+  font-weight: 500;
+  color: var(--negro);
+  background-color: var(--naranja-medio);
+  display: block;
+  padding: 0.5rem 1.75rem;
+  border: 5px solid var(--naranja-medio);
+  border-radius: 0.3rem;
+  margin: 1.5rem auto 0;
+}
+
+.btn:hover {
+  background-color: var(--negro);
+  color: var(--naranja-medio);
+}

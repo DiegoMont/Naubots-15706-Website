@@ -1,0 +1,27 @@
+body {
+  background-color: var(--naranja-claro);
+}
+
+form {
+  background-color: var(--gris-claro);
+  width: 30vw;
+  min-width: 210px;
+  padding: 3.5vw 7.5vw;
+  border-radius: 1rem;
+  margin: 10vh auto 0;
+}
+
+img {
+  width: 95%;
+  display: block;
+  margin: 0 auto 2rem;
+}
+
+input[type="password"], input[type="text"] {
+  box-sizing: border-box;
+  display: block;
+  width: 95%;
+  border: 1px solid var(--gris-medio);
+  border-radius: 3px;
+  margin: 0.75rem 0 0.2rem;
+}
