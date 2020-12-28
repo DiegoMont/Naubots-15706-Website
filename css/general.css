@@ -45,6 +45,13 @@ h4, h5, h6 {
   font-weight: 400;
 }
 
+nav {
+  background-color: var(--naranja-medio);
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
 p {
   font-weight: 300;
 }
@@ -63,4 +70,39 @@ p {
 .btn:hover {
   background-color: var(--negro);
   color: var(--naranja-medio);
+}
+
+.link-nav {
+  color: var(--negro);
+  display: block;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  margin: 0.5rem 1rem;
+}
+
+.link-nav:hover {
+  border-bottom-color: var(--negro);
+}
+
+.redes-sociales {
+  justify-content: center;
+}
+
+.redes-sociales a {
+  margin: 1rem;
+}
+
+.redes-sociales img {
+  width: 1.5rem;
+}
+
+nav .centre {
+  display: grid;
+  grid-template-columns: 2.5rem 1fr;
+  grid-gap: 1rem;
+  padding: 0.5rem 1rem
+}
+
+nav .flexbox {
+  justify-content: space-between;
 }

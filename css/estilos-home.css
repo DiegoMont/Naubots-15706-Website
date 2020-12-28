@@ -4,6 +4,10 @@
 *                     *
 ***********************/
 
+#nav-link-home {
+  border-bottom-color:var(--negro);
+}
+
 header {
   height: 100vh;
   max-height: 100vw;
@@ -51,4 +55,111 @@ header {
   45% { opacity: 0; }
   55% { opacity: 1; }
   100% { opacity: 1; }
+}
+
+/***************************
+*                          *
+*       Descripcion        *
+*                          *
+****************************/
+
+#descripcion {
+  background-color: var(--negro);
+}
+
+#descripcion h1 {
+  color: var(--naranja)
+}
+
+#descripcion p {
+  color: var(--gris-medio);
+  margin: 2rem auto;
+}
+
+#descripcion img {
+  
+}
+
+/***************************
+*                          *
+*         Objetivos        *
+*                          *
+****************************/
+
+#objetivos {
+  background-color: var(--naranja-medio);
+}
+
+#objetivos .item {
+  width: 45%;
+  min-width: 300px;
+  margin: 1.5rem 1rem;
+}
+
+#objetivos h2 {
+  color: var(--negro);
+}
+
+#objetivos p {
+  color: var(--naranja-muy-claro);
+}
+
+/***************************
+*                          *
+*      Patrocinadores      *
+*                          *
+****************************/
+
+#patrocinadores {
+  background-color: #fff;
+}
+
+#patrocinadores h1 {
+  color: var(--naranja);
+  margin-bottom: 4rem;
+}
+
+#patrocinadores img {
+  width: 26%;
+  min-width: 140px;
+  margin: 1.5rem auto;
+}
+
+/***************************
+*                          *
+*      Redes sociales      *
+*                          *
+****************************/
+
+#contacto {
+  background-color: var(--gris-claro);
+}
+
+#contacto a {
+  color: var(--naranja);
+}
+
+#contacto h1 {
+  color: var(--negro);
+  margin-bottom: 2rem;
+}
+
+#contacto img {
+  width: 1.5rem;
+  margin: 0 0.5rem;
+}
+
+/***************************
+*                          *
+*      Redes sociales      *
+*                          *
+****************************/
+
+#galeria {
+  padding: 0;
+}
+
+#galeria img {
+  width: 50%;
+  min-width: 300px;
 }
