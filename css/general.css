@@ -19,20 +19,6 @@
   src: url(fonts/Roboto-Medium.ttf);
 }
 
-@font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 100;
-  src: url(fonts/Roboto-Thin.ttf);
-}
-
-@font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  src: url(fonts/Roboto-Bold.ttf);
-}
-
 :root {
   /*Fondo negro, letras naranjas y decoraciones grises*/
   --negro: #000;
@@ -49,6 +35,18 @@
 
 * {
   font-family: 'Roboto', Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3 {
+  font-weight: 500;
+}
+
+h4, h5, h6 {
+  font-weight: 400;
+}
+
+p {
+  font-weight: 300;
 }
 
 .btn {
